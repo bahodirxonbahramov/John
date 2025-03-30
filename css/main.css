@@ -55,4 +55,41 @@ li {
   max-width: 920px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-top: 27px;
+  padding-right: 60px;
+}
+.header-links {
+  width: 240px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 33px;
+       column-gap: 33px;
+}
+.header-link {
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: right;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.header-link:hover {
+  color: #ff6464;
 }/*# sourceMappingURL=main.css.map */
