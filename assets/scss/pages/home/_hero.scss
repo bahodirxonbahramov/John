@@ -1,0 +1,73 @@
+.hero {
+  width: 100%;
+  height: 550px;
+  @include center();
+
+  &-row {
+    width: 100%;
+    height: 100%;
+    @include flex(center, space-between);
+  }
+
+  &-content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &_title {
+      width: 72%;
+      font-family: $font-family;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 136%;
+      color: $dark;
+      cursor: pointer;
+      @include trn();
+      margin-bottom: 40px;
+    }
+
+    &_description {
+      width: 85%;
+      font-family: $font-family;
+      font-weight: 400;
+      font-size: 16px;
+      color: $dark;
+      cursor: pointer;
+      @include trn();
+      margin-bottom: 47px;
+    }
+
+    &_button {
+      width: 210px;
+      height: 50px;
+      border-radius: 2px;
+      background: $primary;
+      font-family: $font-family;
+      font-weight: 500;
+      font-size: 20px;
+      color: $white-color;
+      cursor: pointer;
+      @include center();
+      @include trn();
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &-image {
+    width: 40%;
+    height: 100%;
+    @include center();
+
+    img {
+      width: 243px;
+      height: 243px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
