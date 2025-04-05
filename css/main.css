@@ -169,4 +169,87 @@ li {
   height: 243px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.posts {
+  width: 100%;
+  height: 400px;
+  background: #edf7fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.posts-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.posts-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+.posts-top-name {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 273%;
+  color: #21243d;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.posts-top-all {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  color: #00a8cc;
+  cursor: pointer;
+}
+.posts-boxes {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.posts-boxes_box {
+  width: 420px;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+  background: #fff;
+  padding: 24px;
+}
+.posts-boxes_box_title {
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #21243d;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 17px;
+}
+.posts-boxes_box_dateandtopic {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #21243d;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 11px;
+}
+.posts-boxes_box_description {
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #21243d;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  line-height: 2;
 }/*# sourceMappingURL=main.css.map */
