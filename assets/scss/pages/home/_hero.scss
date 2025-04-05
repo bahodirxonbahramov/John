@@ -49,6 +49,7 @@
       font-size: 20px;
       color: $white-color;
       cursor: pointer;
+      margin-bottom: 70px;
       @include center();
       @include trn();
 
@@ -62,6 +63,7 @@
     width: 40%;
     height: 100%;
     @include center();
+    padding-bottom: 200px;
 
     img {
       width: 243px;
